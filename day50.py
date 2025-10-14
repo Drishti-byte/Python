@@ -1,0 +1,10 @@
+#program to print all the possible combinations of a 3 digit number 
+a = [0, 0, 0] 
+a[0] = int(input("Enter first digit:")) 
+a[1] = int(input("Enter second digit:"))
+a[2] = int(input("Enter third digit:"))
+for i in range(3):
+    for j in range(3):
+        for k in range(3):
+            if i != j and j != k and k != i:
+                print(a[i], a[j], a[k]) 
