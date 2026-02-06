@@ -1,0 +1,11 @@
+#program to take input 
+name = input("Enter your name: ")
+print("Welcome ",name)
+val = int(input("Enter some value: "))
+print(type(val), val)
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+marks = float(input("Enter your marks: "))
+print("Welcome ",name)
+print("Your age is ",age)
+print("You scored ",marks," marks")
